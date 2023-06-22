@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --animate-duration: .25s;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.inputContainer {
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 30%;
+  height: 3vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: 2rem;
+  border: none;
+  border-bottom: solid 3px grey;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+.keyboardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  height: 5vw; width: 5vw; 
+  line-height: 5vw;
+  text-align: center;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border-radius: 10px;
+  margin: .5vw;
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.changeBackgroundColor {
+  background-color: rgb(80, 80, 80);
+}
